@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Gmailapplication">
+    <test name="Gmailapplication">
+        <parameter name="browser" value="firefox"></parameter>
+        
+        <classes>
+            <class name="testcases.Base_class"/>
+            <class name="testcases.login_testcase"/>
+            <class name="testcases.data_driven_testcases"/>
+        </classes>
+    </test>
+</suite>
